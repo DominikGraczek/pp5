@@ -1,0 +1,59 @@
+<html lang="pl">
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pusty dokument</title>
+</head>
+<body>
+    <form class="md-5">
+        <div class="mb-4">
+          <label for="exampleInputEmail1" class="form-label">Nazwa firmy</label>
+          <input type="text" class="form-control" id="firma" aria-describedby="emailHelp" required>
+        </div>
+        <div class="mb-4">
+            <label for="exampleInputEmail1" class="form-label">NIP</label>
+            <input type="text" class="form-control" id="nip" aria-describedby="emailHelp" required>
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Miasto</label>
+            <input type="text" class="form-control" id="miasto" aria-describedby="emailHelp" required>
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Ulica</label>
+            <input type="text" class="form-control" id="ulica" aria-describedby="emailHelp" required>
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Numer domu</label>
+            <input type="text" class="form-control" id="nrdomu" aria-describedby="emailHelp" required>
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Numer Mieszkania</label>
+            <input type="text" class="form-control" id="nrmieszkania" aria-describedby="emailHelp">
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Kod pocztowy</label>
+            <input type="text" class="form-control" id="kodpocztowy" aria-describedby="emailHelp" required>
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Uwagi</label>
+            <textarea type="text" class="form-control" id="uwagi" aria-describedby="emailHelp" required></textarea>
+          </div>
+          <select class="form-select" aria-label="Default select example" id="branza">
+            <option selected>Branża</option>
+            <option value="1">One</option>
+            <option value="2">Two</option>
+            <option value="3">Three</option>
+          </select>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="aktywny">
+            <label class="form-check-label" for="flexCheckDefault">
+              Aktywny
+            </label>
+          </div>
+        
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+</body>
+</html>
